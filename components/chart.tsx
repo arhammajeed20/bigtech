@@ -28,7 +28,7 @@ export default function Chart() {
       }}
     >
       <div className="container mx-auto px-4">
-  <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-12">
+  <div className="flex flex-col-reverse lg:flex-row items-center mx-auto justify-center gap-12">
     {/* Text Section (Goes above on mobile, below on desktop) */}
     <div className="w-full lg:w-1/2">
       <div className="w-full md:w-[90%] lg:w-[80%] animate-fadeInLeft mx-auto">
@@ -91,7 +91,7 @@ export default function Chart() {
     </div>
 
     {/* Chart Box (Goes below on mobile, above on desktop) */}
-    <div className="w-full lg:w-1/2">
+    <div className="w-full max-w-md lg:max-w-lg xl:max-w-xl mx-auto lg:mx-0">
       <div className="bg-[#0B1D33] rounded-2xl p-6 md:p-12 text-center animate-fadeInRight">
         <Image
           src="/assets/img/images/chart.png"
